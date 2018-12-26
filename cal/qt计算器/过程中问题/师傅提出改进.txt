@@ -1,0 +1,26 @@
+1.类名加C大写
+
+2.new delete 配套使用
+if(NULL != m_validationObj)
+    {
+       delete m_validationObj;
+       m_validationObj = NULL;
+    }
+
+3.括号风格统一
+
+4.大括号不要太多 可以用continue减少括号的使用
+
+5.参数改为QString 
+
+6.nobolan(const QString & a); 1.减少拷贝  2.防止修改
+
+7.QMessagebox 通过加入bool  可以使得键盘事件阻止
+
+8.对于调用函数，判断参数是否有，越界
+
+9.动态分配内存 malloc memset的使用
+
+10.成员变量 要初始化
+
+

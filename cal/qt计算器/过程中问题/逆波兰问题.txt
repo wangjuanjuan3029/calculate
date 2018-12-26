@@ -1,0 +1,160 @@
+1）QString 拼接
+2）参数传递  
+3）两位数    
+5）除数不为0
+   多个数字
+4）点号
+
+http://www.qter.org/portal.php?mod=view&aid=10  
+8）实现键盘操作
+  //点击空格有问题，实现连续点击+  移除
+lineEdit 只显示，不可以输入，第二个不可以放光标
+ //处理连续输入+号只显示一个，没有处理
+
+
+6）正负数  
+7）异常    
+括号异常有问题
+
+http://www.cnblogs.com/lxglbk/archive/2012/10/09/2716005.html
+乘方  正负数  求余数
+
+
+界面  
+动效
+打包
+
+	if (c == '+') return 1;
+	if (c == '-') return 1;
+	if (c == '*') return 2;    
+	if (c == '/') return 2;
+	if (c == '^') return 3;
+	if (c == '(') return 0;
+
+
+
+5）QPushButton
+6）template
+
+界面
+动效
+多个平台
+
+
+1/pow(10 , decimalcount);  x的y次幂
+
+//如果是第一个字符为-，或者（的下一个是-，这个数就是负数
+
+if ((lastopt == char.MinValue || lastopt == '(') && exp[i] == '-')
+
+{
+
+IsNegative = true;
+
+if (++i == exp.Length)
+
+{
+
+break;
+
+}
+
+}
+
+
+1.先实现逆波兰所有深层代码
+2.btn的点击
+3.重新写界面
+
+
+循环里面乱
+作用域不明确
+ double calcval(char *ret)
+ {
+     stack<double> st; 在这定义为char  一直输出整数部分，然后改代码浪费很多时间
+12/4
+晚上学习代码
+1）学习svn使用
+2）处理异常
+3）正负收工
+
+
+ 1)void *memset(void *s,int c,size_t n)
+         总的作用：将已开辟内存空间 s 的首 n 个字节的值设为值 c。
+
+
+
+
+
+
+https://www.cnblogs.com/xykjlcx/p/6886136.html  java代码
+
+
+
+
+问题：每一次都要new 一个对象吗
+
+
+用java写一个（正负数）
+c++规范
+
+
+12月10  加正负 %号
+晚上学习  
+明天代码规范，重新注释
+
+Testcal中
+1）负数
+2）缩减代码，注释，然后代码规范
+
+12/11  跑平台，负数，代码规范，收工 设置长度
+
+
+E:\c++test\cal\calUI_3  最终版
+
+
+明天重新打包
+具有捕获键盘事件的能力
+this->grabKeyboard();
+
+
+https://blog.csdn.net/wikichan/article/details/77679783   跑平台
+
+数字最多可以点击  9下
+
+/************************************************************
+功能:	新建时根据文本长度初始化标签外框，
+        其他时候根据设置将本文分行
+参数:	无
+返回:	无
+作者:	吕诗晨 2016-12-16
+补充：  新建时修改m_w和m_h 其他不允许修改
+************************************************************/
+
+
+1.弹框
+bool isPromoted() const;         //常函数限制不可以在该函数内修改类的数据成员
+
+
+
+
+12.17实现在linux平台运行计算器
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

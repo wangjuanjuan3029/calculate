@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>计算器</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div id="container">
+    
+        <div id="title">
+      <!--       <div id="image"><img src="Image/icon.png"> </div> -->
+            <div id="word"><p>计算器</p></div>
+     <!--        <div id="select">
+                <div id="min"><img src="Image/min.png"></div>
+                <div id="max"><img src="Image/max.png"></div>
+                <div id="off"><img src="Image/off.png"></div>
+            </div> -->
+        </div>
+        
+        <div id="main">
+            <div id="menu">
+            <p>查看(V)</p>
+            <div class="block"></div>
+            <p>编辑(E)</p>
+            <div class="block"></div>
+            <p>帮助(H)</p>
+            </div>
+            <div id="frame"><!-- <img src="Image/frame.png"> -->
+
+                <input type="text" name="" id="showText" readonly /> 
+                <input type="text" name="" id="showRes" /> 
+            </div>
+            <!-- 下面是按键 -->
+            <div id="button">
+                <div class="smallbutton"><p></p></div>
+                 <div class="buttonblock"></div>  
+                    <div class="smallbutton"><p></p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><P></P></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><P></P></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><P></P></div>  
+  
+                    <div class="smallbutton"><P id="arrows" onclick="showTextArrows()">←</P></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><p id="qiuyu" onclick="showTextQiuyu()">%</p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><P id="clearAll" onclick="showTextClearAll()">C</P></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><P id="nedative" onclick="showTextSub()">±</P></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><p id="sqart" onclick="showTextSqart()">√</p></div>  
+  
+                    <div class="smallbutton"><p id="num7" onclick="showText7()">7</p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><p id="num8" onclick="showText8()">8</p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><p id="num9" onclick="showText9()">9</p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><p id="div" onclick="showTextDiv()">/</p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><p id="right" onclick="showTextright()">)</p></div>  
+  
+                    <div class="smallbutton"><p id="num4" onclick="showText4()">4</p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><p id="num5" onclick="showText5()">5</p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><p id="num6" onclick="showText6()">6</p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><p id="mulp" onclick="showTextMulp()">*</p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><p id="left" onclick="showTextleft()">(</p></div>  
+  
+                    <div class="smallbutton" ><p id="num1" onclick="showText1()">1</p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton" ><p id="num2" onclick="showText2()">2</p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><p id="num3" onclick="showText3()">3</p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><p id="sub" onclick="showTextSub()">-</p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="bigbuttonY"><p id="equal" onclick="main()">=</p></div>  
+  
+                    <div class="bigbuttonX"><p id="num0" onclick="showText0()">0</p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><p id="dot" onclick="showTextDot()">.</p></div>  
+                    <div class="buttonblock"></div>  
+                    <div class="smallbutton"><p id="add" onclick="showTextAdd()">+</p></div>  
+            </div>
+        </div>
+    </div>
+    <script text="text/javascript" src="calculator.js"></script>   <!-- 函数入口 -->
+   
+    <script text="text/javascript" src=" clickShow.js"></script>   <!-- 点击按钮以及键盘然后显示文本 -->
+
+    <script text="text/javascript" src=" verify.js"></script>      <!-- 验证表达式是否正确 -->
+
+    <script text="text/javascript" src=" nibolan.js"></script>     <!-- 转逆波兰，然后计算结果  -->
+</body>
+</html>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>picture/icon.png</file>
+        <file>picture/wang.ico</file>
+    </qresource>
+</RCC>

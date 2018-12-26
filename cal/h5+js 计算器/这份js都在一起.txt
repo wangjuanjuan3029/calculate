@@ -1,0 +1,4 @@
+main.js 入口
+验证
+init
+nobilan
